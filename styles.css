@@ -7,24 +7,20 @@ p {
     font-size: 250%;
     position:relative; top:300px;
 }
-#kukka1 {
+#pink_flower {
     position:relative; top:200px; left:1060px;
     z-index: -1;
 }
-#kukka2 {
+#sun_flower {
     position:relative; top:250px; left:360px;
     z-index: -1;
 }
-#kukka3 {
-    position:relative; top:207px; left:458px;
-    z-index: -1;
-}
-#kukka4 {
-    position:relative; top:-50px; left:-198px;
+#flower {
+    position:relative; top:-50px; left:108px;
     z-index: -2;
 }
 #tausta {
-    position:relative; top:-60px; left:-258px;
+    position:relative; top:-60px; left:21px;
     width: 560px;
     height: auto;
     z-index: -3;
