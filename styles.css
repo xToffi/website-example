@@ -7,7 +7,25 @@ p {
     font-size: 250%;
     position:relative; top:300px;
 }
-img {
+#kukka1 {
     position:relative; top:200px; left:1060px;
     z-index: -1;
+}
+#kukka2 {
+    position:relative; top:250px; left:360px;
+    z-index: -1;
+}
+#kukka3 {
+    position:relative; top:207px; left:458px;
+    z-index: -1;
+}
+#kukka4 {
+    position:relative; top:-50px; left:-198px;
+    z-index: -2;
+}
+#tausta {
+    position:relative; top:-60px; left:-258px;
+    width: 560px;
+    height: auto;
+    z-index: -3;
 }
