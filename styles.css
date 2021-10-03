@@ -1,0 +1,13 @@
+body {
+    background-color: darkgray;
+}
+p {
+    text-align: center;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-size: 250%;
+    position:relative; top:300px;
+}
+img {
+    position:relative; top:200px; left:1060px;
+    z-index: -1;
+}
