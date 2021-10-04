@@ -31,15 +31,14 @@ a {
 #menu {
     position: absolute; top: 0px;
     width:2000px; 
-    height:100px; 
+    height:65px; 
     background: black;
 }
 #menu_text {
-    font-size: 100%;
+    font-size: 80%;
     font-family: 'Open Sans', sans-serif;
-    border: 100px rgb(255, 255, 255);
     color: rgb(255, 255, 255);
-    position: relative; top: -19px; left:50px;
+    position: relative; top: -24px; left:45px;
  }
 #pink_flower {
     position:relative; top:200px; left:1060px;
