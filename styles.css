@@ -18,6 +18,10 @@ a {
     justify-content: center;
     /* it center the item horizontally */
 }
+a:hover {
+    color: grey;
+}
+
 #box {
     border: 5px solid rgb(255, 255, 255);
     width: 80px;
@@ -34,20 +38,3 @@ a {
     color: rgb(255, 255, 255);
     position: relative; top: 14px; left:15px;
  }
-#pink_flower {
-    position:relative; top:200px; left:1060px;
-    z-index: -1;
-}
-#sun_flower {
-    position:relative; top:250px; left:360px;
-    z-index: -1;
-}
-#flower {
-    position:relative; top:-50px; left:108px;
-    z-index: -2;
-}
-#tausta {
-    position:relative; top:-60px; left:21px;
-    width: 560px;
-    z-index: -3;
-}
