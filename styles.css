@@ -4,6 +4,7 @@ body {
     margin:0;
     font-weight:600;
     font-size: 25px;
+    overflow: hidden;
 }
 
 a {
@@ -30,11 +31,11 @@ a:hover {
 }
 #menu {
     position: relative; top: 0px;
-    width:1905px; 
-    height:65px; 
+    width:1920px; 
+    height:55px; 
     background: black;
 }
 #menu_text {
     color: rgb(255, 255, 255);
-    position: relative; top: 14px; left:15px;
+    position: relative; top: 9px; left:14px;
  }
