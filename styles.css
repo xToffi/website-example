@@ -6,6 +6,9 @@ body {
     overflow: hidden;
     font-weight: 500;
 }
+ul {
+    list-style-type: none;
+}
 
 a {
     color: snow;
@@ -30,12 +33,12 @@ a:hover {
     position: relative; top: -115px; left:44px;
 }
 #menu {
-    position: relative; top: 0px;
+    position: relative; top: -25px;
     width:1920px; 
     height:55px; 
     background: black;
 }
-#menu_text {
+#home {
     color: rgb(255, 255, 255);
-    position: relative; top: 14px; left:25px;
+    position: relative; top: 15px; left:-5px;
  }
