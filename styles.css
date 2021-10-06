@@ -25,6 +25,10 @@ a:hover {
     color: grey;
 }
 
+.selected {
+    background-color: grey;
+}
+
 #box {
     border: 5px solid rgb(255, 255, 255);
     width: 80px;
