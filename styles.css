@@ -22,7 +22,7 @@ a {
     /* it center the item horizontally */
 }
 a:hover {
-    color: grey;
+    background-color: grey;
 }
 
 .selected {
@@ -45,5 +45,5 @@ a:hover {
 #home {
     color: rgb(255, 255, 255);
     font-size: 20px;
-    position: relative; top: 18px; left:-10px;
+    position: relative; top: 18px; left:-40px;
  }
