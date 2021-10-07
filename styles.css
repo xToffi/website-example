@@ -47,3 +47,8 @@ a:hover {
     font-size: 20px;
     position: relative; top: 18px; left:-40px;
  }
+#projects {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    position: relative; top: -5px; left:63px;
+}
