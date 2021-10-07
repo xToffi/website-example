@@ -32,7 +32,9 @@ i {
   }
 
 .menubar li {
-    display: inline;
+    margin:0;
+    padding:0;
+    float:left;
 }
 
 #box {
