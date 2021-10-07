@@ -1,25 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: darkgray;
     font-family: 'Helvetica';
     margin:0;
-    overflow: hidden;
+    padding:0;
     font-weight: 500;
 }
-ul {
-    list-style-type: none;
-}
+
 
 a {
     color: snow;
     text-decoration: none;
-}
-#centre {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    /* it center the item vertically */
-    justify-content: center;
-    /* it center the item horizontally */
 }
 a:hover {
     background-color: grey;
@@ -28,6 +22,18 @@ a:hover {
 .selected {
     background-color: grey;
 }
+i {
+    position: relative;
+    left:3px
+}
+.menu_bar ul {
+    list-style-type: none;
+    display: flex;
+  }
+
+.menubar li {
+    display: inline;
+}
 
 #box {
     border: 5px solid rgb(255, 255, 255);
@@ -35,20 +41,19 @@ a:hover {
     height: 50px;
     position: relative; top: -115px; left:44px;
 }
-#menu {
+.menu {
     position: relative; top: -25px;
-    width:1920px; 
-    height:55px; 
+    height:75px; 
     background: black;
     font-size: 20px;
+    display: flex;
+    justify-content: space-between;
 }
-#home {
-    color: rgb(255, 255, 255);
-    font-size: 20px;
-    position: relative; top: 18px; left:-40px;
- }
-#projects {
-    color: rgb(255, 255, 255);
-    font-size: 20px;
-    position: relative; top: -5px; left:63px;
+.menu_bar li a {
+    padding:16px; 
+    padding-right: 10px;
+    justify-content: space-between;
+    display: block;
+    margin:0;
+    position: relative; right:40px;
 }
