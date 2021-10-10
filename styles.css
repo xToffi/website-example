@@ -44,17 +44,17 @@ i {
     position: relative;
     left:3px
 }
-.menu_bar ul {
+.menu ul {
     position:relative; top:8px;
     margin:0px;
     padding:0px;
   }
 
-.menu_bar li {
+.menu li {
     float:left;
     list-style: none;
 }
-.menu_bar li a {
+.menu li a {
     padding:16px; 
     font-size: 20px;
     display: block;
