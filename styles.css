@@ -13,6 +13,10 @@ a {
     color: snow;
     text-decoration: none;
 }
+p {
+    color:white;
+}
+
 .menu {
     position: fixed; top: -25px;
     width: 100%;
