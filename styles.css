@@ -42,7 +42,8 @@ a:hover {
 }
 i {
     position: relative;
-    left:3px
+    left:4px;
+    width:22.5px;
 }
 .menu ul {
     position:relative; top:8px;
