@@ -44,6 +44,7 @@ i {
     position: relative;
     left:4px;
     width:22.5px;
+    display: inline-block;
 }
 .menu ul {
     position:relative; top:8px;
