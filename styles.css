@@ -48,12 +48,16 @@ i {
     position:relative; top:8px;
     margin:0px;
     padding:0px;
-    display: flex;
   }
 
 .menu_bar li {
     float:left;
     list-style: none;
+}
+.menu_bar li a {
+    padding:16px; 
+    font-size: 20px;
+    display: block;
 }
 
 #box {
@@ -63,8 +67,3 @@ i {
     position: relative; top: -115px; left:44px;
 }
 
-.menu_bar li a {
-    padding:16px; 
-    font-size: 20px;
-    display: block;
-}
