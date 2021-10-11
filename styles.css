@@ -7,6 +7,7 @@ header {
 
 body {
     margin:0;
+    overflow-x: hidden;
     background-color: rgb(61, 69, 71);
     font-family: 'Helvetica';
     font-weight: 500;
@@ -76,7 +77,8 @@ i {
     height: 50px;
     position: relative; top: -115px; left:44px;
 }
-#coming_soon h1 {
-    position: relative;
+h1#coming_soon{
+    color:white;
+    position: relative; left:5px;
 }
 
