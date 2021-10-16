@@ -76,8 +76,15 @@ i {
     height: 50px;
     position: relative; top: -115px; left:44px;
 }
-h1#coming_soon{
+#content {
     color:white;
-    position: relative; margin-left:5px;
+    position: relative;
+    left:15px;
+    margin:15px;
+    padding:10px;
+    padding-right:50px;
+    margin-right:1500px;
+    border-radius: 5px;;
+    background-color: rgb(29, 27, 27);
 }
 
