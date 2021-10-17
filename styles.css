@@ -1,9 +1,17 @@
 * {
     box-sizing: border-box;
 }
-header {
-    display: block;
-  }
+header 
+{   display: block;
+    position: relative;
+    font-size: 130%;
+    color:white;
+    width:300px;
+    text-align: center;
+    left:25px;
+    padding:10px;
+    margin:5px;
+    background-color:rgba(15, 15, 13, 0.678); }
 
 body {
     margin:0;
@@ -18,6 +26,9 @@ a {
 }
 p {
     color:white;
+}
+li {
+    list-style: none;
 }
 
 .menu {
@@ -76,14 +87,14 @@ i {
     position: relative; top: -115px; left:44px;
 }
 #content {
-    color:white;
     position: relative;
-    left:15px;
-    margin:15px;
-    padding:10px;
-    padding-right:50px;
-    margin-right:1500px;
-    border-radius: 5px;;
+    display:block;
+    top:10px;
+    left:5px; 
+    margin:15px; 
+    padding:10px 14px 15px; 
+    border-radius: 7px; 
+    width:400px;
     background-color: rgb(29, 27, 27);
 }
 
