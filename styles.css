@@ -20,6 +20,10 @@ body {
     font-family: 'Helvetica';
     font-weight: 500;
 }
+#gameScreen {
+    border: 1px solid black;
+}
+
 a {
     color: snow;
     text-decoration: none;
