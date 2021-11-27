@@ -49,8 +49,10 @@ function showTasks() {
         number_count = index + 1;
     });
     todoList.innerHTML = newLiTag; //lisätään uus li tag ul tagiin
-    if (listArr.length > 0) {
+    if (listArr.length > 1) {
         tasks.innerHTML = "You have " + number_count + " tasks left";
+    } else if (listArr.length > 0 && listArr.length < 2) {
+        tasks.innerHTML = "You have " + number_count + " task left";
     } else {
         tasks.innerHTML = "You don't have any tasks left"
     }
