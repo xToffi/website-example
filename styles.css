@@ -3,14 +3,12 @@
 }
 
 .introducion_header {   
-    position: relative;
     font-size: 130%;
     color:white;
-    width: 300px;
+    max-width: 300px;
     text-align: center;
-    left:25px;
-    padding:10px;
-    margin: 5px;
+    padding: 10px;
+    margin: 5px 40px;
     background-color:rgba(22, 22, 10, 0.678); 
 }
 
@@ -100,6 +98,7 @@ footer {
     max-width: 400px;
     background-color: rgb(29, 27, 27);
     line-height: 20px;
+
 }
 
 .content {
