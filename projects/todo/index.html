@@ -13,7 +13,7 @@
     <link href='https://fonts.googleapis.com/css?family=Playfair Display' rel='stylesheet'>
 </head>
 
-<body>
+<body onload="showTasks()">
     <nav class="menu">
         <ul>
             <li><a href="/home">Home<i class="fas fa-home" aria-hidden="true"></i>
@@ -35,7 +35,7 @@
             <!-- Data tulee local storagesta-->
         </ul>
         <div class="footer">
-            <span>You have <span class="pendingNum"></span> tasks left</span>
+            <span class="tasks"></span>
             <button>Clear all</button>
         </div>
     </div>

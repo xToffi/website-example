@@ -35,7 +35,7 @@ function showTasks() {
     } else {
         listArr = JSON.parse(getLocalStorage) //transformataan json stringi javascript objektiks
     }
-    let pendingNum = document.querySelector(".pendingNum");
+    let tasks = document.querySelector(".tasks")
     let number_count = '';
     if (listArr.length > 0) {
         deleteBtn.classList.add("active")
@@ -49,7 +49,11 @@ function showTasks() {
         number_count = index + 1;
     });
     todoList.innerHTML = newLiTag; //lisätään uus li tag ul tagiin
-    pendingNum.innerHTML = number_count;
+    if (listArr.length > 0) {
+        tasks.innerHTML = "You have " + number_count + " tasks left";
+    } else {
+        tasks.innerHTML = "You don't have any tasks left"
+    }
     inputBox.value = ''; //resettaa inputBoxi kun value lisätään
 }
 
